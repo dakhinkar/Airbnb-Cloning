@@ -1,6 +1,10 @@
 /*  ====================== Apple complete page ============= */
 body{
     margin: 0px;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 /* ===================== Style for nav ===================== */
 #container{
@@ -25,6 +29,45 @@ body{
     color: grey;
 }
 
+#user-box{
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin: 4px;
+    border-radius: 20px;
+}
+.menu-icon{
+    padding-right: 10px;
+}
+
+/* ======================= Search ============================= */
+#search-bar{
+    background-color: white;
+    height: 50px;
+    width: 80%;
+    margin:auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.search-option{
+    height: 60%;
+    width: 15%;
+    border-right: 1px solid gray;
+}
+
+#search-icon-box{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #f31515;
+    color: white;
+}
 @media only screen and (max-width: 576px) {
     .hide-on-phone{
         display: none;
