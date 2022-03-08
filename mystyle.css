@@ -1,0 +1,274 @@
+/*  ====================== Apple complete page ============= */
+body{
+    margin: 0px;
+    background: #8e9eab;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+/* ========================================== Style for nav ======================================================== */
+#nav-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    height: 8vh;
+    font-size: 20px;
+    align-items: center;
+    padding: 0%;
+
+}
+#logo{
+    color: red;
+    font-weight: bold;
+}
+
+#link{
+    display: flex;
+    width: 20%;
+    justify-content: space-around;
+
+}
+
+#link a{
+    text-decoration: none;
+    color: grey;
+}
+
+#nav-user-box{
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    background-color: white;
+    /* padding-top: 5px; */
+    padding-left: 20px;
+    margin: 4px;
+    border-radius: 20px;
+}
+.menu-icon{
+    padding-right: 10px;
+}
+
+/* =================================================================== Search ============================================= */
+#search-bar{
+    background-color: white;
+    height: 50px;
+    width: 68%;
+    margin:auto;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+}
+.search-option{
+    height: 60%;
+    width: 15%;
+    border-right: 1px solid gray;
+}
+
+#search-icon-box{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background-color: #f31515;
+
+    color: white;
+    text-align: center;
+    /* margin: auto; */
+    border-radius: 15px;
+}
+.fa-search{
+    vertical-align: -6px;
+    
+}
+
+
+#guest-option{
+    display: flex;
+    justify-content: space-between;
+}
+.search-option:hover{
+    background-color: #8e9eab;
+    padding-left: 30px;
+    border-radius: 15px;
+}
+/*========================================================== Main body img============================================== */
+.main{
+    width: 100%;
+}
+#home-img{
+    /* margin: 20px 0; */
+    height: 410px;
+    background-image: url(picture/4ba122c7-7328-4e1f-b4c5-23fa4f89a57d.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+}
+#act-btn{
+    color: purple;
+    height: 40px;
+    width: 140px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 25px;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/* ==========================================Cards================================================= */
+.sub-main{
+    margin: 50px;
+    width: 90%;
+    margin-left: 50px;
+}
+
+#cards-locations{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 20px;    
+   
+   
+}
+.card{
+    height: 20rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.card-img-top{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+#card-body-1{
+    background-color: #BC1A6E;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#card-body-2{
+    background-color:  #DE3151;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#card-body-3{
+    background-color: #D93B30;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+#card-body-4{
+    background-color: #CC2D4A;
+    color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+
+/* ================================================ User experince ========================================== */
+
+#exp-1{
+    background-image: url('picture/35612883-8e4c-440a-a768-ca7f268bd294.jpg');
+    background-size: cover;
+    border-radius: 15px;
+   
+}
+#exp-2{
+    background-image: url('picture/793167b0-0a3d-4156-8454-a7506723b377 (1).jpg');
+    background-size: cover;
+    border-radius: 15px;
+}
+.row{
+    /* background-size: cover; */
+    height: 480px;
+    /* padding: 20px; */
+    color: white;
+    grid-column-gap: 30px;
+}
+.col pre{
+    padding: 10px;
+}
+.col button{
+    margin-left: 10px;
+    padding: 5px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+/* ============================== Question Section =============================== */
+#question{
+    height: 500px;
+    background-image: url(picture/aa630fb7-eeb3-4fc1-aa69-456c0eb83d8b.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+#question pre{
+    padding: 40px;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+}
+#question button{
+    margin: 40px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+/*  ============================== Footer =========================================== */
+footer{
+    margin-left: 90px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+}
+#inner-footer-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    list-style-type: none;
+    /* list-style-position: inside; */
+    font-size: small;
+    justify-items: self-start;
+}
+li{
+    text-align: start;
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+#inner-footer-2{
+    display: flex;
+    flex-direction: row;
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 576px) {
+    .nav-hide-on-phone{
+        display: none;
+    }
+}
